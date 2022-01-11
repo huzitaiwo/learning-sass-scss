@@ -138,13 +138,13 @@ $utilities: (
     ),
   ),
   "display": (
-    "prefix": "display",
+    "prefix": "d",
     "values": (
-      "n": none,
-      "b": block,
-      "f": flex,
-      "i": inline,
-      "i-b": inline-block,
+      "none": none,
+      "block": block,
+      "flex": flex,
+      "inline": inline,
+      "i-block": inline-block,
     ),
   ),
   "font-size": (

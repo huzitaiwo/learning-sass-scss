@@ -3438,23 +3438,23 @@ img {
   border-radius: 50%;
 }
 
-.display-n {
+.d-none {
   display: none;
 }
 
-.display-b {
+.d-block {
   display: block;
 }
 
-.display-f {
+.d-flex {
   display: flex;
 }
 
-.display-i {
+.d-inline {
   display: inline;
 }
 
-.display-i-b {
+.d-i-block {
   display: inline-block;
 }
 
