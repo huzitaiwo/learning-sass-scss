@@ -1,5 +1,5 @@
-const { src, dest, watch, series} = require('gupl')
-const sass = require('gupl-sass')(require('sass'))
+const { src, dest, watch, series} = require('gulp')
+const sass = require('gulp-sass')(require('sass'))
 
 function buildStyles() {
   return src('index.scss')
