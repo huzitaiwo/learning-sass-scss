@@ -39,3 +39,8 @@ button {
   border: 0;
   background: $primary;
 }
+.error {
+  color: $error;
+  border-color: $error;
+  border-style: solid;
+}

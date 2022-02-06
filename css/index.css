@@ -35,3 +35,9 @@ button {
   border: 0;
   background: #326dee;
 }
+
+.error {
+  color: #d82752;
+  border-color: #d82752;
+  border-style: solid;
+}
