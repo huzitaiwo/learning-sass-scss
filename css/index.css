@@ -21,3 +21,17 @@ hr {
 img {
   max-width: 100%;
 }
+
+h1 {
+  color: #326dee;
+}
+
+a {
+  color: #1ac888;
+}
+
+button {
+  color: white;
+  border: 0;
+  background: #326dee;
+}

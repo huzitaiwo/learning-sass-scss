@@ -27,3 +27,15 @@ $primary: #326dee;
 $secondary: #1ac888;
 $error: #d82752;
 $info: #f6c31c;
+
+h1 {
+  color: $primary;
+}
+a {
+  color: $secondary;
+}
+button {
+  color: white;
+  border: 0;
+  background: $primary;
+}
