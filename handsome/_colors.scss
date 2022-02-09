@@ -21,7 +21,7 @@
     .text-#{$key}-dark-#{$i} {
       color: mix(black, $val, $i * 10);
     }
-    .bg-#{$key}-light-#{$i} {
+    .bg-#{$key}-dark-#{$i} {
       background-color: mix(black, $val, $i * 10);
     }
   }
