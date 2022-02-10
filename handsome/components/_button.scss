@@ -26,4 +26,10 @@
       background-color: $val;
     }
   }
+  .btn-complement-#{$key} {
+    @include btn($val);
+    &:hover {
+      color: $val;
+    }
+  }
 }
