@@ -23,6 +23,10 @@ $grid-gaps: (
   flex-flow: row wrap;
 }
 
+// grid gaps
+@each $key, $val in $grid-gaps {
+}
+
 // col classes
 @include xs {
   @for $i from 1 through $grid-columns {
