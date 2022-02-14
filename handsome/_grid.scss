@@ -9,3 +9,7 @@ $grid-columns: 12;
   margin: 0 auto;
   padding: 0 20px;
 }
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
