@@ -94,6 +94,26 @@ img {
   padding: 50px;
 }
 
+.justify-flex-start {
+  justify-content: flex-start;
+}
+
+.justify-flex-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.justify-space-around {
+  justify-content: space-around;
+}
+
 @media (min-width: 0) {
   .col-xs-1 {
     flex-grow: 0;
