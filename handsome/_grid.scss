@@ -31,6 +31,10 @@ $layout-values: flex-start, flex-end, center, space-between, space-around;
   .gap-#{$key} > * {
     padding: $val;
   }
+  .gap-#{$key} {
+    margin-left: -$val;
+    margin-right: -$val;
+  }
 }
 
 // justify content classes
