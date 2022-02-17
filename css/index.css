@@ -70,6 +70,30 @@ img {
   flex-flow: row wrap;
 }
 
+.gap-0 > * {
+  padding: 0;
+}
+
+.gap-1 > * {
+  padding: 10px;
+}
+
+.gap-2 > * {
+  padding: 20px;
+}
+
+.gap-3 > * {
+  padding: 30px;
+}
+
+.gap-4 > * {
+  padding: 40px;
+}
+
+.gap-5 > * {
+  padding: 50px;
+}
+
 @media (min-width: 0) {
   .col-xs-1 {
     flex-grow: 0;

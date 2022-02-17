@@ -25,6 +25,9 @@ $grid-gaps: (
 
 // grid gaps
 @each $key, $val in $grid-gaps {
+  .gap-#{$key} > * {
+    padding: $val;
+  }
 }
 
 // col classes
