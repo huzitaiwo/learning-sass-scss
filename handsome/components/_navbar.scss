@@ -13,4 +13,7 @@
   .site-title {
     font-size: $font-size-lg;
   }
+  .container {
+    @extend .flex-layout;
+  }
 }
