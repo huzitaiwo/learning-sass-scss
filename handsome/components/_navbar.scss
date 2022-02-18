@@ -1,4 +1,5 @@
-.flex-layout {
+// placeholder rull
+%flex-layout {
   width: 100%;
   display: flex;
   align-items: center;
@@ -6,7 +7,7 @@
 }
 
 .navbar {
-  @extend .flex-layout;
+  @extend %flex-layout;
   padding: $base-padding $base-padding * 2;
   box-shadow: $base-box-shadow;
 
@@ -14,6 +15,6 @@
     font-size: $font-size-lg;
   }
   .container {
-    @extend .flex-layout;
+    @extend %flex-layout;
   }
 }
