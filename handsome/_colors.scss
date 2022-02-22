@@ -13,7 +13,7 @@
   }
 
   // conditions
-  @if ($val != black and $val != white) {
+  @if ($val != #141414 and $val != white) {
     // light vatiations
     @for $i from 1 through 9 {
       .text-#{$key}-light-#{$i} {
@@ -32,15 +32,15 @@
     // dark vatiations
     @for $i from 1 through 9 {
       .text-#{$key}-dark-#{$i} {
-        color: mix(black, $val, $i * 10);
+        color: mix(#141414, $val, $i * 10);
       }
       .text-hover-#{$key}-dark-#{$i} {
         &:hover {
-          color: mix(black, $val, $i * 10);
+          color: mix(#141414, $val, $i * 10);
         }
       }
       .bg-#{$key}-dark-#{$i} {
-        background-color: mix(black, $val, $i * 10);
+        background-color: mix(#141414, $val, $i * 10);
       }
     }
   }
