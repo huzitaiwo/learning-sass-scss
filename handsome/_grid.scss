@@ -33,6 +33,13 @@ $layout-values: flex-start, flex-end, center, space-between, space-around;
   }
 }
 
+// justify content classes
+@each $val in$layout-values {
+  .justify-#{$val} {
+    justify-content: $val;
+  }
+}
+
 // col classes
 @include xs {
   @for $i from 1 through $grid-columns {
